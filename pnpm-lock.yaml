@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@radix-ui/react-slider': ^1.1.1
+  '@react-spring/parallax': ^9.7.1
   '@react-spring/web': ^9.7.1
   '@stitches/react': ^1.2.8
   '@svgr/webpack': ^7.0.0
@@ -17,6 +18,7 @@ specifiers:
 
 dependencies:
   '@radix-ui/react-slider': 1.1.1_biqbaboplfbrettd7655fr4n2y
+  '@react-spring/parallax': 9.7.1_biqbaboplfbrettd7655fr4n2y
   '@react-spring/web': 9.7.1_biqbaboplfbrettd7655fr4n2y
   '@stitches/react': 1.2.8_react@18.2.0
   '@types/node': 18.15.10
@@ -1726,6 +1728,18 @@ packages:
       '@react-spring/shared': 9.7.1_react@18.2.0
       '@react-spring/types': 9.7.1
       react: 18.2.0
+    dev: false
+
+  /@react-spring/parallax/9.7.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-1wBgDYaewB8CHdMWa2O3C2Cfvq2mt+neQLZz3+zHTH0CRUlbzC8Hsm78BCDiK8I1QzpLCtgwvv2rYAJchQuZ1A==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@react-spring/shared': 9.7.1_react@18.2.0
+      '@react-spring/web': 9.7.1_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /@react-spring/rafz/9.7.1:
